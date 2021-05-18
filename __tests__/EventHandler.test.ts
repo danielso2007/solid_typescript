@@ -1,4 +1,4 @@
-import EventHandler from '../src/EventHandler';
+import EventHandler from '../src/DOMEventHandler';
 import { JSDOM } from 'jsdom';
 
 declare global {

@@ -1,7 +1,8 @@
+import IEventHandler from './IEventHandler';
 /**
  * Classe ouvinte de eventos da aplicação.
  */
-export default class EventHandler {
+export default class DOMEventHandler implements IEventHandler {
 
     /**
      * Manipulador de eventos.
