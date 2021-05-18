@@ -1,6 +1,6 @@
 {
   "name": "solid_ts",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Estudo de S.O.L.I.D.",
   "main": "index.js",
   "scripts": {

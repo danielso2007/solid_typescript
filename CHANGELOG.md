@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/danielso2007/solid_typescript/compare/v0.3.0...v0.4.0) (2021-05-18)
+
+
+### Features
+
+* **LSP:** princípio da Substituição de Liskov ([2cb764e](https://github.com/danielso2007/solid_typescript/commit/2cb764efcc1e6d988e2a8f95d6bcb57aae74ca52))
+
+
+### Bug Fixes
+
+* ajustando o nome da classe no TS ([f04ece1](https://github.com/danielso2007/solid_typescript/commit/f04ece13bdd3f9f0c56ff2aec5d39d478a928c6a))
+
 ## [0.3.0](https://github.com/danielso2007/solid_typescript/compare/v0.2.0...v0.3.0) (2021-05-18)
 
 
