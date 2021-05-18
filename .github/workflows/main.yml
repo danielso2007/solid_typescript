@@ -1,3 +1,6 @@
+
+name: SOLID TS
+
 on:
   push:
     branches:

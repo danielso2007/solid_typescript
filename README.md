@@ -1,3 +1,5 @@
+[![.github/workflows/main.yml](https://github.com/danielso2007/solid_typescript/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/danielso2007/solid_typescript/actions/workflows/main.yml)
+
 # Solid com TypeScript
 
 Projeto simples apenas para o estudo do S.O.L.I.D.
