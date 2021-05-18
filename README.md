@@ -43,7 +43,7 @@ O Single Responsibility Principle é um dos mais importantes princípios do SOLI
 Este é o tipo de princípio que todo código orientado a objetos deveria possuir.
 Portanto antes de construir aquela classe que cadastra o usuário e envia o e-mail, lembre-se deste princípio.
 
-# Princípio Aberto-Fechado – OCP
+## Princípio Aberto-Fechado – OCP
 
 Open Closed Principle, também conhecido como Princípio do Aberto Fechado. Você deve ser capaz de estender um comportamento de uma classe, sem modificá-lo.
 
@@ -57,6 +57,13 @@ Este é o segundo princípio do SOLID e certamente o princípio mais polêmico, 
 
 Quando aprendemos sobre orientação a objetos com certeza ouvimos sobre abstração, é ela que permite que este princípio funcione. Se um software possui abstrações bem definidas logo ele estará aberto para extensão.
 
-# Princípio da Substituição de Liskov - LSP
+## Princípio da Substituição de Liskov - LSP
 
 As classes base devem ser substituíveis por suas classes derivadas. “Se q(x) é uma propriedade demonstrável dos objetos x de tipo T. Então q(y) deve ser verdadeiro para objetos y de tipo S onde S é um subtipo de T.” Traduzindo isso seria uma classe base deve poder ser substituída pela sua classe derivada. Quer dizer que quando você tem uma classe base ela pode ser substituída em qualquer momento por uma classe derivada, pois a classe derivada também é uma classe base.
+
+## Princípio da Segregação da Interface - ISP
+
+Muitas interfaces específicas são melhores do que uma interface única. “Prefira sempre interface a classes abstratas”
+Utilizando uma interface você acaba evitando de ter que construir uma classe abstrata para fazer herança dela em outro lugar. O ISP ele diz o seguinte: “Classes não devem ser forçadas a depender de métodos que não usam”.
+Então além de promover a ideia da programação voltada à interface, este principio conduz a você não tentar reaproveitar suas interfaces, porque “muitas interfaces específicas são melhores do que uma interface única.”
+
