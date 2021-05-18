@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/danielso2007/solid_typescript/compare/v0.2.0...v0.3.0) (2021-05-18)
+
+
+### Features
+
+* **OCP:** Princípio Aberto-Fechado ([295ab44](https://github.com/danielso2007/solid_typescript/commit/295ab44498e248a23e92e9e1165e648c13c56087))
+
 ## [0.2.0](https://github.com/danielso2007/solid_typescript/compare/v0.1.0...v0.2.0) (2021-05-18)
 
 
