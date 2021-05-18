@@ -11,7 +11,7 @@ declare global {
     }
 }
 
-const { window } = new JSDOM('<!doctype html><html><body></body></html>');
+const { window } = new JSDOM('<!doctype html><html><body><button class="btn-test">Test</button></body></html>');
 global.document = window.document;
 global.window = global.document.defaultView;
 
@@ -24,5 +24,5 @@ beforeAll(() => {
 });
 
 test('Test EventHandler addEventListenerToClass', () => {
-    expect(eventHandler.addEventListenerToClass(".btn-twitter", "twitter", testFn));
+    expect(eventHandler.addEventListenerToClass(".btn-test", "twitter", testFn));
 });

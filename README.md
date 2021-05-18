@@ -22,7 +22,9 @@ Para configurar o webpack e typescript, acessar [webpack](https://webpack.js.org
 
 Utilizando o [jestjs](https://jestjs.io/pt-BR/) para os testes. Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicidade.
 
-# SOLID – Single Responsibility Principle – SRP
+# SOLID
+
+## Single Responsibility Principle – SRP
 
 Single Responsibility Principle, também conhecido como Princípio da Responsabilidade Única.
 
@@ -41,3 +43,16 @@ O Single Responsibility Principle é um dos mais importantes princípios do SOLI
 Este é o tipo de princípio que todo código orientado a objetos deveria possuir.
 Portanto antes de construir aquela classe que cadastra o usuário e envia o e-mail, lembre-se deste princípio.
 
+# Princípio Aberto-Fechado – OCP
+
+Open Closed Principle, também conhecido como Princípio do Aberto Fechado. Você deve ser capaz de estender um comportamento de uma classe, sem modificá-lo.
+
+Este é o segundo princípio do SOLID e certamente o princípio mais polêmico, desconhecido e não utilizado. Entidades de software (classes, módulos, funções, etc) devem estar abertas para extensão, mas fechadas para modificação. Este princípio nos atenta para um melhor design, tornando o software mais extensível e facilitando sua evolução sem afetar a qualidade do que já está desenvolvido. Para o uso do Open Closed Principle é muito comum utilizarmos o Strategy Pattern do GoF.
+
+### Extensibilidade
+
+É uma das chaves da orientação a objetos, quando um novo comportamento ou funcionalidade precisar ser adicionado é esperado que as existentes sejam estendidas e e não alteradas, assim o código original permanece intacto e confiável enquanto as novas são implementadas através de extensibilidade. Criar código extensível é uma responsabilidade do desenvolvedor maduro, utilizar design duradouro para um software de boa qualidade e manutenibilidade.
+
+### Abstração
+
+Quando aprendemos sobre orientação a objetos com certeza ouvimos sobre abstração, é ela que permite que este princípio funcione. Se um software possui abstrações bem definidas logo ele estará aberto para extensão.

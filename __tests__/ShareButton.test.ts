@@ -1,20 +1,45 @@
-import ShareButton from '../src/ShareButton';
+import ShareButtonFacebook from '../src/ShareButtonFacebook';
+import ShareButtonLinkedin from '../src/ShareButtonLinkedin';
+import ShareButtonTwitter from '../src/ShareButtonTwitter';
 
-let ulr_test: string;
-let shareButton: ShareButton;
+import { JSDOM } from 'jsdom';
 
-beforeAll(() => {
-    ulr_test = 'https://www.youtube.com/channel/UC_tzt1tZZSu827c20tTgpMw/videos';
-    shareButton = new ShareButton(ulr_test);
-});
+declare global {
+    namespace NodeJS {
+        interface Global {
+            document: Document;
+            window: Window;
+            navigator: Navigator;
+        }
+    }
+}
 
-describe('testing ShareButton', () => {
+const { window } = new JSDOM('<!doctype html><html><body></body></html>');
+global.document = window.document;
+global.window = global.document.defaultView;
+
+
+describe('Testing AbstractShareButton', () => {
     
-    test('New ShareButton', () => {
-        expect(shareButton.url).toEqual(ulr_test);
+    test('New ShareButtonFacebook', () => {
+        let urlTest = "https://teste.com";
+        let shareButton = new ShareButtonFacebook(".btn-facebook", urlTest);
+        expect(shareButton.createLink()).toEqual(`https://www.facebook.com/share.php?u=${urlTest}`);
+        expect(shareButton.bind());
     });
 
-    test('EventHandler not null', () => {
-        expect(shareButton).not.toBeNull()
+    test('New ShareButtonLinkedin', () => {
+        let urlTest = "https://teste2.com";
+        let shareButton = new ShareButtonLinkedin(".btn-linkedin", urlTest);
+        expect(shareButton.createLink()).toEqual(`https://www.linkedin.com/shareArticle?url=${urlTest}`);
+        expect(shareButton.bind());
     });
+
+    test('New ShareButtonTwitter', () => {
+        let urlTest = "https://teste.com";
+        let shareButton = new ShareButtonTwitter(".btn-twitter", urlTest);
+        expect(shareButton.createLink()).toEqual(`https://twitter.com/share?url=${urlTest}`);
+        expect(shareButton.bind());
+    });
+
 });
