@@ -12,8 +12,10 @@
 *.log
 *.tmp
 *.tmp.*
+*.log
 log.txt
-log/
+/logs
+/log
 /coverage
 /lib
 /.nyc_output

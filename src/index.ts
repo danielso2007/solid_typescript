@@ -1,12 +1,19 @@
 import ShareButtonTwitter from './ShareButtonTwitter';
 import ShareButtonFacebook from './ShareButtonFacebook';
 import ShareButtonLinkedin from './ShareButtonLinkedin';
+import ShareButtonPrint from './ShareButtonPrint';
+import AbstractShareButton from './AbstractShareButton';
 
-const twitter = new ShareButtonTwitter('.btn-twitter', 'https://www.youtube.com/channel/UC_tzt1tZZSu827c20tTgpMw/videos');
+const url = 'https://www.youtube.com/channel/UC_tzt1tZZSu827c20tTgpMw/videos';
+
+const twitter: AbstractShareButton = new ShareButtonTwitter('.btn-twitter', url);
 twitter.bind();
 
-const facebook = new ShareButtonFacebook('.btn-facebook', 'https://www.youtube.com/channel/UC_tzt1tZZSu827c20tTgpMw/videos');
+const facebook: AbstractShareButton = new ShareButtonFacebook('.btn-facebook', url);
 facebook.bind();
 
-const linkedin = new ShareButtonLinkedin('.btn-linkedin', 'https://www.youtube.com/channel/UC_tzt1tZZSu827c20tTgpMw/videos');
+const linkedin: AbstractShareButton = new ShareButtonLinkedin('.btn-linkedin', url);
 linkedin.bind();
+
+const print: AbstractShareButton = new ShareButtonPrint('.btn-print');
+print.bind();

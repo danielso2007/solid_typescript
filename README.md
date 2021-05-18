@@ -56,3 +56,7 @@ Este é o segundo princípio do SOLID e certamente o princípio mais polêmico, 
 ### Abstração
 
 Quando aprendemos sobre orientação a objetos com certeza ouvimos sobre abstração, é ela que permite que este princípio funcione. Se um software possui abstrações bem definidas logo ele estará aberto para extensão.
+
+# Princípio da Substituição de Liskov - LSP
+
+As classes base devem ser substituíveis por suas classes derivadas. “Se q(x) é uma propriedade demonstrável dos objetos x de tipo T. Então q(y) deve ser verdadeiro para objetos y de tipo S onde S é um subtipo de T.” Traduzindo isso seria uma classe base deve poder ser substituída pela sua classe derivada. Quer dizer que quando você tem uma classe base ela pode ser substituída em qualquer momento por uma classe derivada, pois a classe derivada também é uma classe base.
