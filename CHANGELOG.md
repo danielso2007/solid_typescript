@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.5.0](https://github.com/danielso2007/solid_typescript/compare/v0.4.0...v0.5.0) (2021-05-18)
+
+
+### Features
+
+* **ISP:** Princípio da Segregação da Interface. Está implementado junto com o Princípio da Substituição de Liskov ([1f755ee](https://github.com/danielso2007/solid_typescript/commit/1f755eec0ac844ef22a44a58585976137a7b27e6))
+
 ## [0.4.0](https://github.com/danielso2007/solid_typescript/compare/v0.3.0...v0.4.0) (2021-05-18)
 
 
