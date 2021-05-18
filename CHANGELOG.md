@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/danielso2007/solid_typescript/compare/v0.5.0...v0.6.0) (2021-05-18)
+
+
+### Features
+
+* **DIP:** Princípio da inversão da dependência ([6d816c2](https://github.com/danielso2007/solid_typescript/commit/6d816c2da35b1e8768a2243d8a10982abf36435a))
+
 ## [0.5.0](https://github.com/danielso2007/solid_typescript/compare/v0.4.0...v0.5.0) (2021-05-18)
 
 
