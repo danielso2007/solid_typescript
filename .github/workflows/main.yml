@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [13.x, 14.x]
+        node-version: [14.x]
     steps:
     - uses: actions/checkout@v1
     - name: Cache node modules
@@ -41,13 +41,14 @@ jobs:
     - name: npm install and npm run test
       run: |
         npm install --silent
-        npm --silent run test
+        npm --silent run coverage
+        npm run coverage
   Build:
     needs: Test
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [13.x, 14.x]
+        node-version: [14.x]
     steps:
     - uses: actions/checkout@v1
     - name: Cache node modules

@@ -1,4 +1,14 @@
 [![.github/workflows/main.yml](https://github.com/danielso2007/solid_typescript/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/danielso2007/solid_typescript/actions/workflows/main.yml)
+[![codecov](https://codecov.io/gh/danielso2007/solid_typescript/branch/main/graph/badge.svg)](https://codecov.io/gh/danielso2007/solid_typescript)
+
+
+![GitHub package version](https://img.shields.io/github/package-json/v/danielso2007/solid_typescript.svg)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/danielso2007/solid_typescript.svg)](https://github.com/danielso2007/solid_typescript/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/danielso2007/solid_typescript.svg)](https://github.com/danielso2007/solid_typescript/issues?q=is%3Aopen+is%3Aissue)
+![GitHub last commit](https://img.shields.io/github/last-commit/danielso2007/solid_typescript.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/danielso2007/solid_typescript.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/danielso2007/solid_typescript.svg)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 # Solid com TypeScript
 
